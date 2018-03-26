@@ -2,6 +2,12 @@
         padding: 20px;
 }
 
+.dataUnavailable {
+    font-weight: bold;
+    font-size: 25px;
+    align-content: center;
+}
+
 .user-details-form {
     margin-left: 10px !important;
 }

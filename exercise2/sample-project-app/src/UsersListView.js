@@ -14,7 +14,7 @@ class UsersListView  extends Component {
         
         this.state = {
             users: "[]",
-            isUsersFetching: true,
+            isUsersFetching: true
           };
       }
 

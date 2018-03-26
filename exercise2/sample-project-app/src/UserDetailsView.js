@@ -85,7 +85,7 @@ class UserDetailsView extends Component {
                             <Col md={9}>{user.website}</Col>
                         </Row>
 
-                    ` <Row className="company" >
+                    <Row className="company" >
                                 <Col md={3} className='lbl-column'>Company Information</Col>
                                 <Col md={9}>
                                     <Grid className='company-info-containr'> 

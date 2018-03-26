@@ -1,5 +1,5 @@
 # uxdExercises
-This Repo contains the sollutions for the UXD asssignment.
+This Repo contains the solutions for the UXD assignment.
 
-## Prerequisits
-Please make surw you have the latest verion of Node.js installed.
+## prerequisites
+Please make sure you have the latest version of Node.js installed.

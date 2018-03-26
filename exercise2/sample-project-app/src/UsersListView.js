@@ -54,6 +54,11 @@ class UsersListView  extends Component {
     render() {
         let {users, isUsersFetching} = this.state;
 
+        const options = {
+            defaultSortName: 'name',
+            sortOrder: 'desc'
+        } 
+
         return (
             isUsersFetching ? '' :
       <div className="list-detail-container">
@@ -63,6 +68,7 @@ class UsersListView  extends Component {
         <div className="users-tables">
                 <BootstrapTable 
                     data={users}
+                    options={options}
                     condensed={true} >
                     
                     <TableHeaderColumn dataField="id" hidden={true} isKey dataSort={true}></TableHeaderColumn>

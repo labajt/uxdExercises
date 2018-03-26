@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test\\appTest.js",
-    "start": "node src\\app.js"
+    "test": "mocha \"test/appTest.js\"",
+    "start": "node \"src/app.js\""
   },
   "author": "",
   "license": "ISC",
